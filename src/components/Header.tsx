@@ -1,10 +1,11 @@
-import '../styles/header.scss'
+import '../styles/header.scss';
+import SVGlogo from '../iconscomponents/logo';
 
 export function Header() {
   return (
     <header className="header">
       <div>
-        <img src="../img/logo.svg" alt="to.do"/>
+        <SVGlogo/>
       </div>
     </header>
   )
